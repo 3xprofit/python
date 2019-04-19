@@ -7,7 +7,8 @@ __author__ = 'Чепурной Юрий Викторович'
 # * при желании решите задачу с применением цикла for.
 
 # код пишем тут...
-numeric = str(956)
+numeric = str(input("Введите многозначное число: "))
+#numeric = str(956)
 for digit in numeric:
     print(digit)
 
